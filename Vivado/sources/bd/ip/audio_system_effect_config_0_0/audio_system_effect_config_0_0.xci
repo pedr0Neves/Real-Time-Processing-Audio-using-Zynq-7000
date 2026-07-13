@@ -1,0 +1,51 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "audio_system_effect_config_0_0",
+    "cell_name": "effect_config_0",
+    "component_reference": "xilinx.com:module_ref:effect_config:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../tcc_project.gen/sources_1/bd/audio_system/ip/audio_system_effect_config_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "audio_system_effect_config_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo:part0:2.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z010" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../tcc_project.gen/sources_1/bd/audio_system/ip/audio_system_effect_config_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "sw": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "led": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "sw_echo": [ { "direction": "out" } ],
+        "led_echo": [ { "direction": "in" } ],
+        "sw_reverb": [ { "direction": "out" } ],
+        "led_reverb": [ { "direction": "in" } ],
+        "sw_overdrive": [ { "direction": "out" } ],
+        "led_overdrive": [ { "direction": "in" } ],
+        "muten": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

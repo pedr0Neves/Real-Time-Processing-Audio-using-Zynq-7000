@@ -1,0 +1,101 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.500775",
+   "Default View_TopLeft":"-791,4",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 2190 -y 710 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 2190 -y 680 -defaultsOSRD
+preplace port port-id_ac_pbdat -pg 1 -lvl 6 -x 2190 -y 1140 -defaultsOSRD
+preplace port port-id_ac_recdat -pg 1 -lvl 0 -x 0 -y 1400 -defaultsOSRD
+preplace port port-id_ac_sda -pg 1 -lvl 6 -x 2190 -y 60 -defaultsOSRD
+preplace port port-id_ac_muten -pg 1 -lvl 6 -x 2190 -y 1740 -defaultsOSRD
+preplace port port-id_ac_bclk -pg 1 -lvl 6 -x 2190 -y 900 -defaultsOSRD
+preplace port port-id_ac_scl -pg 1 -lvl 6 -x 2190 -y 90 -defaultsOSRD
+preplace port port-id_ac_reclrc -pg 1 -lvl 6 -x 2190 -y 870 -defaultsOSRD
+preplace port port-id_ac_pblrc -pg 1 -lvl 6 -x 2190 -y 840 -defaultsOSRD
+preplace port port-id_ac_mclk -pg 1 -lvl 6 -x 2190 -y 980 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 6 -x 2190 -y 1710 -defaultsOSRD
+preplace portBus sw -pg 1 -lvl 0 -x 0 -y 1680 -defaultsOSRD
+preplace inst effect_config_0 -pg 1 -lvl 1 -x 170 -y 1710 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 1430 -y 1130 -defaultsOSRD
+preplace inst buffer_0 -pg 1 -lvl 5 -x 1940 -y 90 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 930 -y 840 -defaultsOSRD
+preplace inst proc_sys_reset_12M -pg 1 -lvl 4 -x 1430 -y 1300 -defaultsOSRD
+preplace inst i2s_transmitter_0 -pg 1 -lvl 5 -x 1940 -y 1130 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 4 -x 1430 -y 920 -defaultsOSRD
+preplace inst i2s_receiver_0 -pg 1 -lvl 5 -x 1940 -y 830 -defaultsOSRD
+preplace inst proc_sys_reset_100M -pg 1 -lvl 3 -x 930 -y 1160 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -x 1940 -y 1370 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 5 -x 1940 -y 460 -defaultsOSRD
+preplace inst echo_0 -pg 1 -lvl 2 -x 510 -y 1560 -defaultsOSRD
+preplace inst overdrive_0 -pg 1 -lvl 4 -x 1430 -y 1600 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 5 -x 1940 -y 290 -defaultsOSRD
+preplace inst axi_gpio_5 -pg 1 -lvl 5 -x 1940 -y 1560 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 5 -x 1940 -y 1850 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 5 -x 1940 -y 600 -defaultsOSRD
+preplace inst reverb_0 -pg 1 -lvl 3 -x 930 -y 1600 -defaultsOSRD
+preplace netloc Net 1 5 1 NJ 60
+preplace netloc Net1 1 5 1 2120J 80n
+preplace netloc axi_gpio_0_gpio2_io_o 1 1 5 360 1700 720J 1710 NJ 1710 1750J 1700 2090
+preplace netloc axi_gpio_0_gpio_io_o 1 1 5 360 1450 NJ 1450 NJ 1450 1660J 1460 2110
+preplace netloc axi_gpio_1_gpio_io_o 1 1 5 350 1720 NJ 1720 NJ 1720 NJ 1720 2130
+preplace netloc axi_gpio_2_gpio2_io_o 1 2 4 720 1490 NJ 1490 1620J 1650 2140
+preplace netloc axi_gpio_2_gpio_io_o 1 2 4 730 1460 NJ 1460 1630J 1640 2100
+preplace netloc axi_gpio_3_gpio_io_o 1 2 4 710 1480 NJ 1480 NJ 1480 2120
+preplace netloc axi_gpio_4_gpio2_io_o 1 3 3 1250 1470 NJ 1470 2140
+preplace netloc axi_gpio_4_gpio_io_o 1 3 3 1240 1050 1710J 970 2090
+preplace netloc axi_gpio_5_gpio_io_o 1 3 3 1250 1730 NJ 1730 2110
+preplace netloc buffer_0_O_0 1 3 3 1160 190 NJ 190 2120
+preplace netloc buffer_0_O_1 1 3 3 1170 180 NJ 180 2110
+preplace netloc buffer_0_ac_muten 1 1 5 NJ 1750 NJ 1750 NJ 1750 1790J 1740 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 5 370 1670 700 1470 1220 1060 1760 980 NJ
+preplace netloc clk_wiz_0_locked 1 3 2 1250 1200 1610
+preplace netloc echo_0_led 1 0 3 20 1610 320J 1680 650
+preplace netloc effect_config_0_led 1 1 5 310J 1740 NJ 1740 NJ 1740 1770J 1710 NJ
+preplace netloc effect_config_0_sw_echo 1 1 1 330 1610n
+preplace netloc effect_config_0_sw_overdrive 1 1 3 NJ 1730 NJ 1730 1190
+preplace netloc effect_config_0_sw_reverb 1 1 2 NJ 1710 710
+preplace netloc i2s_receiver_0_lrclk_out 1 4 2 1790 960 2170
+preplace netloc i2s_receiver_0_sclk_out 1 4 2 1780 690 2160
+preplace netloc i2s_transmitter_0_sdata_0_out 1 5 1 NJ 1140
+preplace netloc overdrive_0_led 1 0 5 30 1810 NJ 1810 NJ 1810 NJ 1810 1610
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 3 2 1200 790 1700
+preplace netloc proc_sys_reset_0_peripheral_reset 1 3 1 1210 1120n
+preplace netloc proc_sys_reset_12M_peripheral_aresetn 1 4 1 1720 880n
+preplace netloc proc_sys_reset_12M_peripheral_reset 1 4 1 1680 840n
+preplace netloc processing_system7_0_FCLK_CLK0 1 2 3 720 620 1190 620 1690
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 2 730 1060 1130
+preplace netloc processing_system7_0_I2C0_SCL_O 1 3 2 1150 80 NJ
+preplace netloc processing_system7_0_I2C0_SCL_T 1 3 2 1180 120 NJ
+preplace netloc processing_system7_0_I2C0_SDA_O 1 3 2 1130 60 NJ
+preplace netloc processing_system7_0_I2C0_SDA_T 1 3 2 1140 100 NJ
+preplace netloc reverb_0_led 1 0 4 20 1820 NJ 1820 NJ 1820 1130
+preplace netloc sdata_0_in_0_1 1 0 5 20J 610 NJ 610 NJ 610 NJ 610 1750J
+preplace netloc sw_0_1 1 0 1 NJ 1680
+preplace netloc echo_0_m_axis 1 2 1 N 1550
+preplace netloc i2s_receiver_0_m_axis_aud 1 1 5 370 200 NJ 200 NJ 200 NJ 200 2110
+preplace netloc overdrive_0_m_axis 1 4 1 1770 1060n
+preplace netloc processing_system7_0_DDR 1 3 3 NJ 680 NJ 680 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 3 NJ 700 NJ 700 2150J
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 1 N 900
+preplace netloc reverb_0_m_axis 1 3 1 1230 1550n
+preplace netloc smartconnect_0_M00_AXI 1 4 1 1740 850n
+preplace netloc smartconnect_0_M01_AXI 1 4 1 1630 760n
+preplace netloc smartconnect_0_M02_AXI 1 4 1 1730 890n
+preplace netloc smartconnect_0_M03_AXI 1 4 1 1620 440n
+preplace netloc smartconnect_0_M04_AXI 1 4 1 1610 270n
+preplace netloc smartconnect_0_M05_AXI 1 4 1 1670 950n
+preplace netloc smartconnect_0_M06_AXI 1 4 1 1650 970n
+preplace netloc smartconnect_0_M07_AXI 1 4 1 1640 580n
+levelinfo -pg 1 0 170 510 930 1430 1940 2190
+pagesize -pg 1 -db -bbox -sgen -120 0 2310 1940
+"
+}
+{
+   "da_axi4_cnt":"25",
+   "da_board_cnt":"5",
+   "da_clkrst_cnt":"11",
+   "da_ps7_cnt":"1"
+}
